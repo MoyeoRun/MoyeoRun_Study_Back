@@ -10,3 +10,22 @@
 | 21.8.13 | Nest.js+WebSocket+ chatting example |          |
 | 21.8.16 | Socket+ InfluxDB                    |          |
 | 21.8.19 | Nestjs + TDD                        |          |
+
+---
+
+## 📁 Nest js 공식문서 정리
+
+### ❗️ **OverView**
+
+|      소분류       | 링크                     |
+| :---------------: | ------------------------ |
+|    First step     | [Link](/Md/FirstStep.md) |
+|    Controllers    |                          |
+|     Providers     |                          |
+|      Modules      |                          |
+|    Middleware     |                          |
+| Exception filters |                          |
+|       Pipes       |                          |
+|      Guards       |                          |
+|   Interceptors    |                          |
+| Custm decorators  |                          |
