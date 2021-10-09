@@ -41,7 +41,7 @@ app.get('/single', (req, res, next) => {
                 const result = await axios({
                     url: 'http://localhost:4000/single-running/running',
                     method: 'post',
-                    data: { id: String(response.data.id), ...Dummydata[count] },
+                    data: { id: String(response.data.id), runData: [Dummydata[count]] },
                     headers: {
                         Authorization: `Bearer ${env.JWT_TOKEN_DUMMY}`,
                     },
